@@ -45,35 +45,38 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="docs\index.md" />
-    <None Include="mkdocs.yml" />
-    <None Include="site\fonts\fontawesome-webfont.eot" />
-    <None Include="site\fonts\fontawesome-webfont.ttf" />
-    <None Include="site\fonts\fontawesome-webfont.woff" />
-    <None Include="site\fonts\fontawesome-webfont.woff2" />
-    <None Include="site\fonts\glyphicons-halflings-regular.eot" />
-    <None Include="site\fonts\glyphicons-halflings-regular.ttf" />
-    <None Include="site\fonts\glyphicons-halflings-regular.woff" />
-    <None Include="site\fonts\glyphicons-halflings-regular.woff2" />
-    <None Include="site\search\search_index.json" />
-    <None Include="site\sitemap.xml.gz" />
+    <None Include="docs\mkdocs.yml" />
+    <None Include="docs\site\fonts\fontawesome-webfont.eot" />
+    <None Include="docs\site\fonts\fontawesome-webfont.ttf" />
+    <None Include="docs\site\fonts\fontawesome-webfont.woff" />
+    <None Include="docs\site\fonts\fontawesome-webfont.woff2" />
+    <None Include="docs\site\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="docs\site\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="docs\site\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="docs\site\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="docs\site\search\search_index.json" />
+    <None Include="docs\site\sitemap.xml.gz" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="site\404.html" />
-    <Content Include="site\css\base.css" />
-    <Content Include="site\css\bootstrap-custom.min.css" />
-    <Content Include="site\css\font-awesome.min.css" />
-    <Content Include="site\fonts\fontawesome-webfont.svg" />
-    <Content Include="site\fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="site\img\favicon.ico" />
-    <Content Include="site\img\grid.png" />
-    <Content Include="site\index.html" />
-    <Content Include="site\js\base.js" />
-    <Content Include="site\js\bootstrap-3.0.3.min.js" />
-    <Content Include="site\js\jquery-1.10.2.min.js" />
-    <Content Include="site\search\lunr.js" />
-    <Content Include="site\search\main.js" />
-    <Content Include="site\search\worker.js" />
-    <Content Include="site\sitemap.xml" />
+    <Content Include="docs\site\404.html" />
+    <Content Include="docs\site\css\base.css" />
+    <Content Include="docs\site\css\bootstrap-custom.min.css" />
+    <Content Include="docs\site\css\font-awesome.min.css" />
+    <Content Include="docs\site\fonts\fontawesome-webfont.svg" />
+    <Content Include="docs\site\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="docs\site\img\favicon.ico" />
+    <Content Include="docs\site\img\grid.png" />
+    <Content Include="docs\site\index.html" />
+    <Content Include="docs\site\js\base.js" />
+    <Content Include="docs\site\js\bootstrap-3.0.3.min.js" />
+    <Content Include="docs\site\js\jquery-1.10.2.min.js" />
+    <Content Include="docs\site\search\lunr.js" />
+    <Content Include="docs\site\search\main.js" />
+    <Content Include="docs\site\search\worker.js" />
+    <Content Include="docs\site\sitemap.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="docs\docs\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
