@@ -1,5 +1,5 @@
 site_name: MkLorum
-docs_dir: docs/docs
+docs_dir: 'docs/docs'
 nav:
     - Home: index.md
     - About: about.md
