@@ -44,7 +44,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="docs\index.md" />
+    <None Include="docs\docs\about.md" />
+    <None Include="docs\docs\index.md" />
     <None Include="docs\mkdocs.yml" />
     <None Include="docs\site\fonts\fontawesome-webfont.eot" />
     <None Include="docs\site\fonts\fontawesome-webfont.ttf" />
@@ -75,8 +76,6 @@
     <Content Include="docs\site\search\worker.js" />
     <Content Include="docs\site\sitemap.xml" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="docs\docs\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
